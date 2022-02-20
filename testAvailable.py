@@ -4,6 +4,7 @@ import json
 import os
 import sys
 import subprocess
+import re
 
 RED    = '\x1b[01;31m'
 GREEN  = '\x1b[01;32m'
@@ -18,14 +19,18 @@ def validate(path):
 	try:
 		with open(path) as f:
 			for host in json.loads(f.read()):
-				if host[0] == '[': continue
-				ipv4 = host.split(':')[0]
-				res  = subprocess.call(['ping', '-c3', '-W5', ipv4], stdout=subprocess.DEVNULL)
+				ip = ""
+				indices = [i.start() for i in re.finditer(":", host)]
+				if host[0] == '[':
+					ip = host[1:indices[-1]-1]
+				else:
+					ip = host[0:indices[-1]]
+				res  = subprocess.call(['ping', '-c3', '-W5', ip], stdout=subprocess.DEVNULL)
 				if res:
-					print("    %s%s is failed%s" % (RED, ipv4, END))
+					print("    %s%s is failed%s" % (RED, ip, END))
 					result = False
 				else:
-					print("    %s%s is ok%s" % (GREEN, ipv4, END))
+					print("    %s%s is ok%s" % (GREEN, ip, END))
 	except ValueError:
 		print("    %sInvalid JSON!%s" % (RED, END))
 		result = False

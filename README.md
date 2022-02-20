@@ -78,7 +78,7 @@ Otherwise, you can name your file whatever you want, but for simplicity's sake, 
 
 ## Maps
 Maps of the Hyperboria Network:
-* http://h.snode.cjd.li/#fc02:2735:e595:bb70:8ffc:5293:8af8:c4b7
+* http://h.snode.cjd.li/
 * http://hia.cjdns.ca/test/d3map/d3map.html
 
 ## Javascript API

@@ -1,6 +1,0 @@
-sudo: false
-addons:
-  apt:
-    packages:
-      - python3
-script: ./tests.py

@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/hyperboria/peers.png)](http://travis-ci.org/hyperboria/peers)
+# Hyperboria peers
 
 > A geographically sorted list of public peering credentials for joining [Hyperboria](https://hyperboria.net/).
 

@@ -3,6 +3,7 @@
         "login":"deavmi_links",
         "password":"mu1sv9h45w41z47b9lcpl7gr56q38m0",
         "peerName":"deavmiNode",
-        "publicKey":"qkw11v5yff3tp3sv0dbmmk73lgwwpmcsy0v4mx3gdlmj61yhy7u0.k"
+        "publicKey":"qkw11v5yff3tp3sv0dbmmk73lgwwpmcsy0v4mx3gdlmj61yhy7u0.k",
+        "contact":"deavmi@disroot.org"
     }
 }

@@ -73,7 +73,13 @@ We have tried to standardize the structure of the actual credential files, as su
 Credential files must end with `.k`.
 Otherwise, you can name your file whatever you want, but for simplicity's sake, avoid characters which will need to be escaped at the command line (or within the javascript api).
 
+## Maps
+Maps of the Hyperboria Network:
+* http://h.snode.cjd.li/#fc02:2735:e595:bb70:8ffc:5293:8af8:c4b7
+* http://hia.cjdns.ca/test/d3map/d3map.html
+
 ## Javascript API
+*Note:* refers to the original Hyperpeer repo
 
 Peering credentials in this repository can be accessed via a simple Javascript API (using Nodejs).
 

@@ -7,6 +7,9 @@ Connections between nodes are established manually, and traffic is restricted to
 
 This repository exists for those who don't already know somebody on Hyperboria.
 
+Primary repository: https://github.com/marek22k/hyperboria-peers
+Mirror: https://notabug.org/mark22k/hyperboria-peers (only code)
+
 ## Using credentials
 
 First, set up a cjdns node.

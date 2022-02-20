@@ -15,9 +15,9 @@ To connect your node to one of these public peers, follow [the steps in the cjdn
 
 ## Adding your public node's credentials
 
-If you've created a public node, and would like to have it listed here, fork the repo, add a keyfile, run `./tests.py` (make sure your file passes the test), and submit a PR.
+If you've created a public node, and would like to have it listed here, fork the repo, add a keyfile, run `./tests.py` (make sure your file passes the test), and submit a PR. Alternatively, it is also possible to open an issue.
 
-We won't merge your credentials until our tests are passing.
+We won't merge or add your credentials until our tests are passing.
 
 ### Filepath conventions
 Credentials are sorted geographically, by [continent](https://github.com/hyperboria/docs/blob/master/cjdns/nodeinfo-json.md#regarding-continent-codes) code.
@@ -40,6 +40,7 @@ We have tried to standardize the structure of the actual credential files, as su
   + publicKey
   + contact (a means of contacting the operator)
 * The following fields are not yet required, but are recommended:
+  + login
   + gpg, listing your 16 character pgp fingerprint (all caps, no spaces)
   + peerName, a human-readable name for the node
 * credentials should be formatted such that:

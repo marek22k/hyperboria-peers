@@ -1,9 +1,0 @@
-{
-    "185.243.112.90:27823":{
-        "contact":"Igel@hyperboria.ca",
-        "gpg":"A84DFFE62B451511",
-        "password":"alfa-charlie-alfa-bravo",
-        "peerName":"igel-amersfoort",
-        "publicKey":"1nctdb89gtfrlnu71zyq97n14frl1r4z0ylwzc8vn7kpvrzu4yl0.k"
-    }
-}

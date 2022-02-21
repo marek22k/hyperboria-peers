@@ -1,6 +1,8 @@
 {
     "163.172.26.210:27410":{
         "contact":"adraenwan@tfnux.org",
+        "ipv6":"fc7f:cb8e:a144:718c:004d:88b8:4d8e:a95d",
+        "location":"online.net DC2",
         "login":"public-peer",
         "password":"ZGZWKOX5H535MG7MRYRKFMF4IY5GFCO5",
         "peerName":"h.totem.tfnux.org",
@@ -8,6 +10,8 @@
     },
     "[2001:bc8:2495:100::1]:27410":{
         "contact":"adraenwan@tfnux.org",
+        "ipv6":"fc7f:cb8e:a144:718c:004d:88b8:4d8e:a95d",
+        "location":"online.net DC2",
         "login":"public-peer",
         "password":"ZGZWKOX5H535MG7MRYRKFMF4IY5GFCO5",
         "peerName":"h.totem.tfnux.org",

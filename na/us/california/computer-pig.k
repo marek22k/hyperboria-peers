@@ -1,5 +1,5 @@
 {
-    "97.90.35.107:55602":{
+    "97.94.191.254:55602":{
         "contact":"happysmash27@protonmail.com",
         "gpg":"1567396F2C90D234",
         "login":"default-login",

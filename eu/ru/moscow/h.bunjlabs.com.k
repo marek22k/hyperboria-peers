@@ -1,9 +1,0 @@
-{
-    "94.142.141.189:50433":{
-        "contact":"contact@bunjlabs.com",
-        "login":"default-login",
-        "password":"c5q2j63x5nkmt2yg2vjmlnfuh1jnjjf",
-        "peerName":"h.bunjlabs.com",
-        "publicKey":"0gdj2xzn01lzjjcrykjvwp8flnxkp1b3jny0drl5b168lmpsmfj0.k"
-    }
-}

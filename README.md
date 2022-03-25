@@ -82,7 +82,7 @@ Maps of the Hyperboria Network:
 * http://hia.cjdns.ca/test/d3map/d3map.html
 
 ## Javascript API
-*Note:* refers to the original Hyperpeer repo
+*Note:* refers to the original Hyperboria peers repo
 
 Peering credentials in this repository can be accessed via a simple Javascript API (using Nodejs).
 
